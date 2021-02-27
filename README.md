@@ -58,3 +58,7 @@ Browser | Supported
 Chrome  |     ✓
 Firefox |     ✓
 Safari  |     ✓
+
+---
+
+Special thanks to [ABC](https://greasyfork.org/en/users/684129-dev-abc) for all of his help along the way! 🎉
