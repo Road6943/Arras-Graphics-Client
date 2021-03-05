@@ -14,6 +14,8 @@ Fully customizable visual enhancements for arras.io
 You can access the setting menu at any time by clicking on the gear icon at the top right of the page. To close the settings menu, click on the `✕` (also at the top right).
 
 ## Release History
+* 2.0.1
+  * Fixed background image CSS
 * 2.0.0
   * Added UI
   * Added background image feature
