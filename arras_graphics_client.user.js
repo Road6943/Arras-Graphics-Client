@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Arras Graphics Client
 // @namespace    https://github.com/Ray-Adams
-// @version      2.0.0
+// @version      2.0.1
 // @description  Fully customizable visual enhancements for arras.io
 // @author       Ray Adams
 // @match        *://arras.io/*
@@ -32,7 +32,7 @@
 
     });
 
-    if (_localStorage.gcBackgroundImage) document.body.style.backgroundImage = `url(${_localStorage.gcBackgroundImage})`;
+    if (_localStorage.gcBackgroundImage) document.body.style.background = `url(${_localStorage.gcBackgroundImage}) center / cover no-repeat`;
 
     /*
      * Source: https://gist.github.com/aharl/84fb1bfa937a688dd7203258591c2ca5
@@ -60,6 +60,10 @@
 
     /* CSS styles for UI */
     const styles = elementFactory('style', {}, `
+        body {
+            background-size: cover;
+        }
+
         #gc-settings-button {
             height: 30px;
             width: 30px;
@@ -423,7 +427,7 @@
                 if (currentNode.validity.valid) {
 
                     _localStorage.gcBackgroundImage = currentNode.value;
-                    document.body.style.backgroundImage = `url(${_localStorage.gcBackgroundImage})`;
+                    document.body.style.background = `url(${_localStorage.gcBackgroundImage}) center / cover no-repeat`;
 
                 };
 
