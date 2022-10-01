@@ -1,3 +1,8 @@
+# NOTE:
+# Both Arras Graphics Client and TIGER have been succeeded by [RoadRayge](https://github.com/Road6943/RoadRayge).
+
+The original Arras Graphics Client repo by Ray Adams is gone, so this will be here as a backup.
+
 # Arras Graphics Client
 Fully customizable visual enhancements for arras.io
 
@@ -8,7 +13,7 @@ Fully customizable visual enhancements for arras.io
 
 ## Installation
 1. Download the Tampermonkey extension from https://www.tampermonkey.net/
-2. Install [arras_graphics_client.user.js](https://github.com/Ray-Adams/Arras-Graphics-Client/raw/main/arras_graphics_client.user.js)
+2. Install [arras_graphics_client.user.js](https://github.com/Road6943/Arras-Graphics-Client/raw/main/arras_graphics_client.user.js)
 
 ## Usage
 You can access the setting menu at any time by clicking on the gear icon at the top right of the page. To close the settings menu, click on the `✕` (also at the top right).
